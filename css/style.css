@@ -11,6 +11,10 @@ display: flex;
 justify-content: start;
 align-items: center;
 color:#fff;
+height: 94px;
+}
+.header-logo {
+  padding: 25px 50px;
 }
 .header-nav-link {
   text-decoration: none;
@@ -30,6 +34,7 @@ color:#fff;
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-right: 50px;
 }
 .header-phone-link {
   text-decoration: none;
@@ -42,6 +47,17 @@ margin-right: 50px;
 .button {
 font-weight: 600;
 font-size: 16px;
-line-height: 160%
-
+line-height: 160%;
+padding: 25px 60px;
+gap: 10px;
+color: #fff;
+background: #3A71D1;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+flex-shrink: 0;
+}
+.header-button {
+  height: 100%;
 }
