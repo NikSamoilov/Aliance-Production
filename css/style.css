@@ -13,6 +13,8 @@ body {
 .container {
   max-width: 1440px;
   margin: auto;
+  min-width: 5%;
+  padding: 0;
 }
 .navbar {
 display: flex;
@@ -25,6 +27,7 @@ border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header {
   min-height: 100vh;
+  
 }
 .header-image {
   background-image: url(../img/header-bg.jpg);
@@ -32,6 +35,7 @@ border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  min-width: 1514px;
 }
 .header-image::before {
   content: "";
