@@ -12,16 +12,20 @@ body {
   }
 .container {
   max-width: 1570px;
-  margin: 0 223px 0 234px;
+  margin: -3px 223px 0 234px;
   padding: 0;
 }
-
+.container-bottom {
+  max-width: 1570px;
+  margin: 0 223px 0 241px;
+  padding: 0;
+}
 .navbar {
 display: flex;
 justify-content: start;
 align-items: center;
 color:#fff;
-height: 94px;
+height: 93px;
 position: fixed;
 z-index: 2;
 width: 100%;
@@ -117,6 +121,7 @@ cursor: pointer;
   background-color:#5C8EE5;
   width: 150px;
   height: 2px;
+  margin-bottom: 25px;
 }
 .header-content {
   padding-top: 150px;
@@ -144,11 +149,11 @@ cursor: pointer;
   margin-bottom: 50px;
 }
 .content-button {
-  margin-bottom: 86px;
+  margin-bottom: 84px;
 }
 .header-features {
   display: flex;
-  min-height: 168px;
+  min-height: 165px;
   padding: 0;
   list-style: none;
   color: #fff;
@@ -156,7 +161,7 @@ cursor: pointer;
   padding-left: 8px;
 }
 .header-features-item {
-  padding: 30px 48px;
+  padding: 28px 48px;
   width: 288px;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -174,6 +179,8 @@ cursor: pointer;
   font-size: 60px;
   line-height: 120%;
   color: #292D33;
+  margin: 0;
+  margin-bottom: 53px;
 }
 .section {
   margin-top: 150px;
@@ -183,8 +190,9 @@ cursor: pointer;
   font-family: 'Bebas Neue Book';
   font-size: 48px;
   line-height: 120%;
+  font-weight: 700;
   color: #5C8EE6;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   display: flex;
   align-items: center;
 }
@@ -210,7 +218,7 @@ cursor: pointer;
   line-height: 160%;
   color: #292D33;
   margin-bottom: 10px;
-  margin-top: 30px;
+  padding-right: 24px;
 }
 .steps-text {
 font-weight: 400;
@@ -219,6 +227,7 @@ line-height: 160%;
 color: #828A99;
 margin-top: 10px;
 margin-bottom: 20px;
+padding-right: 29px;
 }
 .steps-link {
 font-weight: 600;
