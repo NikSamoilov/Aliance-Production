@@ -447,6 +447,7 @@ html {
     height: 1px;
     width: 100%;
     background-color: #fff;
+    transition: transform 0.2s;
 
   }
 
@@ -538,5 +539,14 @@ html {
     line-height: 160%;
     color: #292D33;
 
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
   }
 }
