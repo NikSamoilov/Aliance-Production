@@ -202,6 +202,13 @@ html {
   display: none;
   height: 44px;
 }
+.slider-bottom {
+  display: none;
+  height: 40px;
+  width: 120px;
+  background-color: #5C8EE5;
+  justify-content: flex-end;
+}
 .slider-button-prev,
 .slider-button-next {
   height: 100%;
@@ -283,6 +290,7 @@ html {
 
 .steps-item {
   max-width: 20.625rem;
+  min-height: 100%;
 }
 
 .steps-title {
@@ -331,7 +339,9 @@ html {
     background-position: center;
   }
 }
-
+.slider-bottom {
+  display: none;
+}
 @media (max-width: 1570px) {
   html {
     font-size: 13px;
@@ -411,8 +421,22 @@ html {
     display: flex;
     margin-left: .375rem;
   }
+  .slider-bottom {
+    display: none;
+  }
+  .steps-num::after {
+    content: "";
+    height: .0625rem;
+    background: #EBEBF0;
+    width: 100%;
+    margin-left: 1.875rem;
+  }
 }
-
+@media (max-width: 1023px) {
+  .slider-bottom {
+    display: flex;
+  }
+}
 @media (max-width: 976px) {
   html {
     font-size: 10px;
@@ -572,6 +596,10 @@ html {
     max-width: 40rem;
     margin-left: 10%;
   }
+  .container-bottom {
+    max-width: 40rem;
+    margin-left: 10%;
+  }
   .header-title {
     font-size: 4rem;
   }
@@ -581,6 +609,10 @@ html {
 }
 @media (max-width: 576px) {
   .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .container-bottom {
     max-width: 90%;
     margin: auto;
   }
@@ -601,4 +633,11 @@ html {
   .header-content {
     padding-top: 2rem;
   }
+  .container-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.container-buttons {
+  display: flex;
 }
